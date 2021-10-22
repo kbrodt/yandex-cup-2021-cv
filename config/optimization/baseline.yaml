@@ -1,0 +1,15 @@
+optimizer:
+  cls: torch.optim.Adam
+  args:
+    lr: 1.0e-4
+    weight_decay: 1.0e-6  # 0.2  # 1.0e-6
+    # betas: [0.9, 0.999]
+    # eps: 1.0e-8
+
+lr_scheduler:
+  scheduler:
+    cls: torch.optim.lr_scheduler.MultiStepLR
+    args:
+      milestones: [60, 90]
+      gamma: 0.1
+  interval: epoch
