@@ -8,6 +8,8 @@
 
 [2nd place out of 47](https://contest.yandex.ru/yacup/contest/29254/standings/) with accuracy score 87.13 (top 1 91.49)
 
+See the [presentation](./doc/2021_yacup_cv_asr.pdf) for more details.
+
 # CV
 This is a baseline solution for CV task in Yandex ML Cup 2021 competition.
 
